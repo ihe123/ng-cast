@@ -3,7 +3,8 @@ angular.module('video-player')
   return {
     // TODO
     scope: {
-      videos: '<'
+      videos: '<',
+      onClick: '<'
     },
     restrict: 'E',
     controllerAs: 'ctrl',
@@ -12,9 +13,9 @@ angular.module('video-player')
     templateUrl: 'src/templates/videoList.html',
     controller: function() {
       
-      //this.videos = '' || window.exampleVideoData;
-      this.onClick = function () {};
-      console.log(this.onClick);
+      //this.videos = this.videos || window.exampleVideoData;
+      //this.onClick = function () {};
+      //console.log(this.onClick);
     }
     
   };
