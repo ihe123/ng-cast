@@ -8,6 +8,7 @@ angular.module('video-player')
     scope: {
       video: '<'
     },
+    restrict: 'E',
     controllerAs: 'ctrl',
     bindToController: true,
     templateUrl: 'src/templates/videoPlayer.html',

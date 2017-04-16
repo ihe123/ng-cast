@@ -9,14 +9,8 @@ angular.module('video-player')
     restrict: 'E',
     controllerAs: 'ctrl',
     bindToController: true,
-    //videos: window.exampleVideoData,
-    templateUrl: 'src/templates/videoList.html',
-    controller: function() {
-      
-      //this.videos = this.videos || window.exampleVideoData;
-      //this.onClick = function () {};
-      //console.log(this.onClick);
-    }
+    controller: function () {},
+    templateUrl: 'src/templates/videoList.html'
     
   };
 });
